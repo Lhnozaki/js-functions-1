@@ -1,9 +1,13 @@
 /**
- * Converts a number a string.
+ * Converts a number to a string.
  * @param {number} n
  * @return {string} the number as a string
  */
 
+function numberToString(n) {
+  let str = n.toString();
+  return str;
+}
 
 /**
  * Adds one to a given number.
@@ -11,6 +15,10 @@
  * @return {number}
  */
 
+ function increase(n) {
+   let sum = n + 1;
+   return sum;
+ }
 
 /**
  * Subtracts one from a given number.
@@ -18,6 +26,10 @@
  * @return {number}
  */
 
+ function decrease(n) {
+   let difference = n - 1;
+   return difference;
+ }
 
 /**
  * Adds two numbers.
