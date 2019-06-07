@@ -50,6 +50,10 @@ function numberToString(n) {
  * @return {number} the difference
  */
 
+ function subtract(x, y) {
+   let difference = x - y;
+   return difference;
+ }
 
 /**
  * Multiplies two numbers.
