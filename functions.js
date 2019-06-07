@@ -275,3 +275,10 @@ function isOdd(n) {
  * @return {object} circle
  */
 
+function createCircle(radius) {
+  let circle = {
+    circumference: 2 * Math.PI * radius,
+    area: Math.PI * (radius * radius)
+  };
+  return circle;
+}
