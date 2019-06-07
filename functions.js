@@ -253,6 +253,16 @@ function isOdd(n) {
  * @return {object} restaurant
  */
 
+ function incrementReviews(restaurant) {
+   let num = 1
+   if(restaurant.hasOwnProperty("reviews") === true) {
+    restaurant.reviews++;
+    return restaurant;
+   } else {
+    restaurant.reviews = num;
+    return restaurant;
+   }
+ }
 
 /**
  * Joins two strings with a space.
