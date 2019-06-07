@@ -74,6 +74,10 @@ function numberToString(n) {
  * @return {number} the quotient
  */
 
+ function divide(x, y) {
+   let quotient = x/y;
+   return quotient;
+ }
 
 /**
  * Multiplies a number by itself.
