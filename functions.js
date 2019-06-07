@@ -99,6 +99,22 @@ function numberToString(n) {
  * @return {number} the result
  */
 
+ function calculate(operation, x, y) {
+   let number;
+  if(operation === "add") {
+    number = x + y;
+    return `${x} + ${y} = ${number}`;
+  } else if(operation === "subtract") {
+    number = x - y;
+    return `${x} - ${y} = ${number}`;
+  } else if(operation === "multiply") {
+    number = x * y;
+    return `${x} * ${y} = ${number}`;
+  } else if(operation === "divide") {
+    number = x / y;
+    return `${x} / ${y} = ${number}`;
+  };
+ }
 
 /**
  * Returns true if `a` is greater than `b`.
@@ -107,6 +123,13 @@ function numberToString(n) {
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan(a, b) {
+  if (a > b) {
+    return true;
+  } else {
+    return false;
+  };
+}
 
 /**
  * Returns true if `a` is less than `b`.
@@ -115,6 +138,13 @@ function numberToString(n) {
  * @return {boolean} `a` is smaller than `b`
  */
 
+function isLessThan(a, b) {
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  };
+}
 
 /**
  * Returns true if `a` and `b` are equal.
