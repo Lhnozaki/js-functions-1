@@ -172,6 +172,13 @@ function areEqual(a, b) {
  * @return {number} the smallest number
  */
 
+ function minimum(a, b) {
+  if (a < b) {
+    return a;
+  } else {
+    return b;
+  };
+ }
 
 /**
  * Returns the largest value of two numbers.
