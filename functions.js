@@ -38,6 +38,10 @@ function numberToString(n) {
  * @return {number} the sum
  */
 
+ function add(x, y) {
+  let sum = x + y;
+  return sum;
+ }
 
 /**
  * Subtracts the second number from the first.
