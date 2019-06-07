@@ -172,11 +172,11 @@ function areEqual(a, b) {
  * @return {number} the smallest number
  */
 
- function minimum(a, b) {
-  if (a < b) {
-    return a;
+ function minimum(x, y) {
+  if (x < y) {
+    return x;
   } else {
-    return b;
+    return y;
   };
  }
 
@@ -187,6 +187,13 @@ function areEqual(a, b) {
  * @return {number} the largest number
  */
 
+ function maximum(x, y) {
+  if (x > y) {
+    return x;
+  } else {
+    return y;
+  };
+ }
 
 /**
  * Returns true if `n` is even.
