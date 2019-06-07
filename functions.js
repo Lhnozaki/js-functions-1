@@ -85,6 +85,10 @@ function numberToString(n) {
  * @return {number} squared
  */
 
+ function square(x) {
+   let sqrd = x*x;
+   return sqrd;
+ }
 
 /**
  * Performs a mathematical operation on two numbers.
