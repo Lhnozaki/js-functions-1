@@ -102,17 +102,21 @@ function numberToString(n) {
  function calculate(operation, x, y) {
    let number;
   if(operation === "add") {
-    number = x + y;
-    return `${x} + ${y} = ${number}`;
+    number = add(x, y);
+    console.log(`${x} + ${y} = ${number}`);
+    return number
   } else if(operation === "subtract") {
-    number = x - y;
-    return `${x} - ${y} = ${number}`;
+    number = subtract(x, y);
+    console.log(`${x} - ${y} = ${number}`);
+    return number;
   } else if(operation === "multiply") {
-    number = x * y;
-    return `${x} * ${y} = ${number}`;
+    number = multiply(x, y);
+    console.log(`${x} * ${y} = ${number}`);
+    return number;
   } else if(operation === "divide") {
-    number = x / y;
-    return `${x} / ${y} = ${number}`;
+    number = divide(x, y);
+    console.log(`${x} / ${y} = ${number}`);
+    return number;
   };
  }
 
