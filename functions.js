@@ -261,6 +261,11 @@ function isOdd(n) {
  * @return {string} joined the words joined with a space
  */
 
+ function combine(word1, word2) {
+   return `${word1} ${word2}`;
+ }
+
+ console.log(combine("hello", "World"));
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
