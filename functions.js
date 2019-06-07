@@ -62,6 +62,10 @@ function numberToString(n) {
  * @return {number} the product
  */
 
+ function multiply(x, y) {
+  let product = x * y;
+  return product;
+ }
 
 /**
  * Divides the first number by the second.
